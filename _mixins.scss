@@ -1,0 +1,27 @@
+@mixin blueBtn {
+	position: absolute;
+  padding: 20px;
+  background-color: #162bc4;
+  color: white;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+  transition: 0.5s;
+}
+
+@mixin hoverBtn {
+	background-color: $hoverColor;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@mixin activeBtn {
+	background-color: $hoverColor;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  box-shadow: none;
+  margin: 5px 0 0 5px;
+  transition: 0.2s;
+}

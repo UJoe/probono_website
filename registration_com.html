@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regisztrálás munkaadóként</title>
+  <link rel="shortcut icon" href="./img/logo_little.png" type="image/png"/>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/Gergo-style.css">
+</head>
+
+<body>
+  <div class="logreg-background">
+    <nav>
+      <div>
+        <a href="./index.html"><img src="./img/logo_nav.png" class="nav-logo" alt="Logo"></a>
+        <div class="nav-right">
+          <a href="./login.html" class="active_link_Greg">Belépés</a>
+          <a href="./advisory-board.html">Kuratórium</a>
+          <a href="./programs.html">Rendezvényeink</a>
+          <a href="./previous_events.html">Archívum</a>
+        </div>
+      </div>
+    </nav>
+    <br><br>
+    <form>
+      <fieldset>
+        <h2>Regisztrálás munkaadóként</h2>
+        <table class="reg-table">
+          <tr>
+            <td><label for="username">Felhasználónév: *</label></td>
+            <td><input type="text" id="reg-user" name="username" placeholder="választott felhasználóneve" required><br>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Jelszó: *</label></td>
+            <td><input type="password" id="reg-password" name="password" placeholder="jelszó" required><br></td>
+          </tr>
+          <tr>
+            <td><label for="password">Jelszó mégegyszer: *</label></td>
+            <td><input type="password" id="reg-password2" name="password" placeholder="jelszó" required><br></td>
+          </tr>
+          <tr>
+            <td><label for="ID-Nos">Azonosító: *</label>
+              <input list="ID-Nos" name="ID-No" id="ID-No">
+              <datalist id="ID-Nos">
+                <option value="Cégjegyzékszám">
+                <option value="Adószám">
+              </datalist></td>
+            <td><input type="number" id="ID-No" name="ID-Nos" placeholder="választott azonosítószám" required><br>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="address">Székhely: *</label></td>
+            <td><input type="text" id="reg-address" name="address" placeholder="székhely" required><br></td>
+          </tr>
+          <tr>
+            <td><label for="email">E-mail: *</label></td>
+            <td><input type="email" id="reg-email" name="email" placeholder="email cím" required><br></td>
+          </tr>
+          <tr>
+            <td><label for="phone">Telefon: </label></td>
+            <td><input type="text" id="phone" name="email" placeholder="telefonszám"><br></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <form id="login-upload">
+                <label for="myfile">Önéletrajz feltöltése</label>
+                <div class="reg-upload">
+                  <input type="file" id="reg-myfile" name="myfile" class="custom-file-input"><br><br>
+                </div>
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="checkbox" id="terms" name="terms">
+              <label for="terms"> Elfogadom a <a href="./terms.html">Felhasználói feltételeket</a>.</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <input type="checkbox" id="privacy" name="privacy">
+              <label for="privacy"> Hozzájárulok adataim kezeléséhez az <a href="./privacy.html">Adatvédelmi
+                  szabályzat</a> alapján.</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="checkbox" id="newsletter" name="newsletter">
+              <label for="newsletter"> Feliratkozom a Hírlevélre</a>.</label>
+            </td>
+          <tr>
+            <td colspan="2">
+              <hr>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="checkbox" id="change" name="change">
+              <label for="change"> Csak módosítom az adataimat.</label>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <form method="get">
+                <button type="submit" class="submit-btn" formaction="./index.html">Mentés</button>
+              </form>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <footer>
+      <ul>
+        <li><a href="./index.html">Főoldal</a></li>
+        |
+        <li><a href="./login.html">Belépés</a></li>
+        |
+        <li><a href="./advisory-board.html">Kuratórium</a></li>
+        |
+        <li><a href="./programs.html">Rendezvényeink</a></li>
+        |
+        <li><a href="./previous_events.html">Archívum</a></li>
+        |
+        <li><a href="./contact.html">Kapcsolat</a></li>
+      </ul>
+      <p>Az alapítvány internet elérését a FRONTEND WARRIORS biztosítja</p>
+      <p>Copyright © 2020 Alapítvány a Reálértelmiségért</p>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+body {
+  font-family: "Arimo", sans-serif;
+}
+
+nav {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-logo {
+  position: absolute;
+  top: 0;
+  width: 150px;;
+}
+
+footer {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logreg-background {
+  background-image: url("../img/slide4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cont-background {
+  background-image: radial-gradient(white, royalblue);
+}
+
+#contact-table {
+  margin-bottom: 50px;
+}
+
+.contact-row {
+  display: flex;
+  margin: 0 100px;
+}
+
+.contact-title {
+  color: black;
+  margin: 10px 100px;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.contact-head {
+  background-color: greenyellow;
+  margin: 0px auto;
+  width: 25%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  border: solid 3px;
+}
+
+.contact-box {
+  border: solid 3px;
+  background-color: rgb(170, 219, 248);
+  display: inline-flex;
+  width: 25%;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.box-content {
+  position: relative;
+  top: 130px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.box-city {
+  position: relative;
+  top: 132px;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.contact-map {
+  width: 25%;
+  height: 300px;
+  border: solid 3px;
+}
+
+fieldset {
+  height: fit-content;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 42%);
+  margin: 5% 25%;
+  justify-content: center;
+  justify-items: center;
+  background-color: rgba(236, 236, 220, 0.9);
+  color: darkblue;
+}
+
+h1 {
+  text-align: center;
+  margin: 5% auto;
+  font-size: 60px;
+  font-family: "Arimo", sans-serif;
+  text-align: center;
+  min-width: fit-content;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin: 5% auto;
+  padding-bottom: 3%;
+  font-size: xx-large;
+  min-width: fit-content;
+}
+
+#login-table {
+  margin: 9% 25% 4.5%;
+  transform: scale(1.5);
+}
+.reg-table {
+  margin: 1% 15%;
+  transform: scale(1.1);
+}
+
+fieldset td {
+  padding: 5px 10px;
+}
+
+.login-btn {
+  margin: 10px 50px 0 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+  transition: 0.5s;
+}
+
+#forget-pw {
+  padding: 15px 30px;
+}
+
+button, button:active {
+  background-color: #162bc4;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: lightskyblue;
+  color: black;
+}
+
+.submit-btn {
+  position: relative;
+  width: 50%;
+  left: 30%;
+  margin: 20px auto;
+  font-size: 24px;
+  outline: none;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+  transition: 0.5s;
+}
+
+.submit-btn:hover {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.submit-btn:active {
+  transition: 0.5s;
+  box-shadow: none;
+  transition: 0.2s;
+  background-color: #162bc4;
+  color: white;
+}

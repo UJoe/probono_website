@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bejelentkezés - Alapítvány a Reálértelmiségért</title>
+  <link rel="shortcut icon" href="./img/logo_little.png" type="image/png"/>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/Gergo-style.css">
+</head>
+
+<body>
+  <div class="logreg-background">
+    <nav>
+      <div>
+        <a href="./index.html"><img src="./img/logo_nav.png" class="nav-logo" alt="Logo"></a>
+        <div class="nav-right">
+          <a href="./login.html" class="active_link_Greg">Belépés</a>
+          <a href="./advisory-board.html">Kuratórium</a>
+          <a href="./programs.html">Rendezvényeink</a>
+          <a href="./previous_events.html">Archívum</a>
+        </div>
+      </div>
+    </nav>
+    <br><br>
+    <form>
+      <fieldset id="login">
+        <h2>Bejelentkezés</h2>
+        <table id="login-table">
+          <tr>
+            <td><label for="username">*Felhasználónév:</label></td>
+            <td><input type="text" id="login-user" name="username" placeholder="Felhasználónév" required><br></td>
+            <td rowspan="2">
+              <form method="get">
+                <button type="submit" formaction="./index.html">Bejelentkezés</button>
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">*Jelszó:</label></td>
+            <td><input type="password" id="login-password" name="password" placeholder="Jelszó" required><br></td>
+          </tr>
+          <tr>
+            <td colspan="2" id="forget-pw"><a href="./forgot-pw.html">Elfelejtette</a> a jelszavát?</td>
+          </tr>
+          <tr>
+            <td>
+              <form method="get">
+                <button formaction="./registration_ind.html" class="login-btn">Regisztráció álláskeresőként</button>
+              </form>
+            </td>
+            <td>
+              <form method="get">
+                <button formaction="./registration_com.html" class="login-btn">Regisztráció munkaadóként</button>
+              </form>
+            </td>
+          </tr>
+        </table>
+        <br>        
+        <br>
+      </fieldset>
+    </form>
+    <br><br>
+    <footer>
+      <ul>
+        <li><a href="./index.html">Főoldal</a></li>
+        |
+        <li><a href="#">Belépés</a></li>
+        |
+        <li><a href="./advisory-board.html">Kuratórium</a></li>
+        |
+        <li><a href="./programs.html">Rendezvényeink</a></li>
+        |
+        <li><a href="./previous_events.html">Archívum</a></li>
+        |
+        <li><a href="./contact.html">Kapcsolat</a></li>
+      </ul>
+      <p>Az alapítvány internet elérését a FRONTEND WARRIORS biztosítja</p>
+      <p>Copyright © 2020 Alapítvány a Reálértelmiségért</p>
+    </footer>
+  </div>
+</body>
+
+</html>

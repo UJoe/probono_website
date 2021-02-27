@@ -1,0 +1,86 @@
+
+article header{
+	padding: 20px;
+}
+
+/*wrapper-title css*/
+.wrapper-title {
+	display: flex;
+	width: auto;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 15px 15px 0 15px;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}
+.wrapper-title .flex-item1 {
+	flex: 0 0 100%; /*flex-grow, flex-shrink, and flex-basis*/
+	background-color: #162bc3;
+	color: white;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 50px;
+	font-family: arimo;
+}
+.wrapper-title .flex-item2 {
+	flex: 1;
+	background-color: rgb(128, 158, 255);
+	color: white;
+	margin: 0 5px 5px 0;
+}
+.wrapper-title .flex-item3 {
+	flex: 4;
+	background-color: rgb(128, 158, 255);
+	color: white;
+	margin: 0 5px 5px 0;
+}
+.wrapper-title .flex-item4 {
+	flex: 3;
+	background-color: rgb(128, 158, 255);
+	color: white;
+	margin: 0 0 5px 0;
+}
+
+/*wrapper-content css*/
+.wrapper-content {
+	display: flex;
+	width: auto;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	margin: 0 15px;
+	font-size: 18px;
+	color: rgba(63, 58, 58, 0.678);
+}
+
+.wrapper-content .flex-item2 {
+	flex: 1;
+	background-color: rgb(170, 219, 248);
+	margin: 0 5px 5px 0;
+}
+.wrapper-content .flex-item3 {
+	flex: 4;
+	background-color: rgb(170, 219, 248);
+	margin: 0 5px 5px 0;
+}
+.wrapper-content .flex-item4 {
+	flex: 3;
+	background-color: rgb(170, 219, 248);
+	margin: 0 0 5px 0;
+}
+.wrapper-content ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*shadow*/
+.flex-item1, .flex-item2, .flex-item3, .flex-item4 {
+	box-shadow: 2px 2px 5px black;
+}
+
+#content-table {
+	margin: 10% 0 100px;
+}
